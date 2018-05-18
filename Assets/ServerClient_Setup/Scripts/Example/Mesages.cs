@@ -142,6 +142,6 @@ public class Mesages : NetworkBehaviour {
     {
         if(isServer) //if you call a RPC from a client you will get an error. (RPC are used to let the server do something on the clients)
             RpcChangeColor();
-            ChangeColor();
+            
     }
 }
